@@ -23,6 +23,6 @@ class NotificationService {
             showWhen: false);
     const NotificationDetails platformChannelSpecifics =
         NotificationDetails(android: androidPlatformChannelSpecifics);
-    await _notificationsPlugin.show(id, title, body, platformChannelSpecifics);
+    //await _notificationsPlugin.show(id, title, body, platformChannelSpecifics);
   }
 }
